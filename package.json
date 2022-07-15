@@ -1,17 +1,19 @@
-{
-  "name": "chat-browser",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "devStart": "nodemon server.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "socket.io": "^2.2.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.4"
-  }
-}
+{"homepage":"https://Rohit22-dev.github.io/Chat-app-socket-io",
+"name":"chat-browser",
+"version":"1.0.0",
+"description":"",
+"main":"index.js",
+"scripts":{
+  "devStart":"nodemon server.js"
+},
+  "predeploy":"npm run build",
+  "deploy":"gh-pages -d build",
+  "author":"",
+  "license":"ISC",
+  "dependencies":{
+    "gh-pages":"^4.0.0",
+    "socket.io":"^2.2.0"
+    },
+    "devDependencies":{
+      "nodemon":"^1.19.4"
+      }}

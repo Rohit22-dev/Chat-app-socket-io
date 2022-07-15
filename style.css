@@ -3,18 +3,23 @@ body{
     margin: 0;
     display: flex;
     justify-content: center;
-    background-color: #afd275;
+    background-color: #3e8b80;
 }
 #message-container{
-   width: 80%;
+   width: 50%;
    max-width: 1200px;
 }
 #message-container div{
-    background-color: #ccc;
+    background-color: #001F3D;
     padding: 5px;
+    color: white;
+    border-radius: 10px;
+    margin: 2px;
 }
 #message-container div:nth-child(2n){
-    background-color: #fff;
+    background-color: #A7E8CA;
+    color: black;
+    border-radius: 10px;
 }
 #send-container{
     position: fixed;
@@ -25,6 +30,7 @@ body{
     width: 40%;
     display: flex;
     justify-content:center;
+    gap: 2px;
 }
 
 #message-input {
